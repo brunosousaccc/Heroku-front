@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+.color-white {
+  color: white
+}
+
+
+.save-button-form, .cancel-button-form {
+  width: 100px;
+  background: transparent linear-gradient(180deg, #da5c01 0%, #da5c01 100%) 0%
+    0% no-repeat padding-box;
+  border: transparent !important;
+  border-width: 1px;
+  border-radius: 4px;
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  transform:scale(1);
+}
+
+.cancel-button-form {
+  background: #828282 0% 0% no-repeat padding-box !important;
+}
+
+.save-button-form:hover, .cancel-button-form:hover {
+  border: transparent;
+  border-width: 2px;
+  transform:scale(0.92); transition: 0.4s;
+  
+}
+
+.save-button-form:focus{
+  border: transparent;
+}
